@@ -9,7 +9,6 @@ namespace ExampleAspFromScratch
 {
     public class User
     {
-        [Comment("Primary key :) alert(\"hello\")")]
         public int Id { get; set; }
         public string Name { get; set; }
 
